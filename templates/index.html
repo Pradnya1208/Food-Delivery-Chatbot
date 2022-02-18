@@ -1,0 +1,3540 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>RestroBot</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css">
+  <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="http://themes.audemedia.com/html/goodgrowth/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css'>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./style.css">
+<style>
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,400,600,800);
+.testimonials {
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  padding-top: 20px;
+  margin-left: 80px;
+}
+.testimonials:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 40%;
+  background-color: #fff;
+}
+
+/* customer testimonial for Popular menu*/
+#customers-testimonials .item-details {
+  background-color: #ffffff;
+  color: #000;
+  padding: 20px 10px;
+  text-align: left;
+}
+#customers-testimonials .item-details h5 {
+  margin: 0 0 20px;
+  font-size: 18px;
+  line-height: 12px;
+}
+#customers-testimonials .item-details h5 span {
+  color: red;
+  float: right;
+  font-weight: bold;
+  padding-right: 4px;
+}
+#customers-testimonials .item-details p {
+  font-size: 14px;
+}
+#customers-testimonials .item {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.item h6 {
+  text-align: center;
+  font-size: 14px;
+  color: green;
+  visibility: hidden;
+  z-index: 10;
+}
+
+/* customer-testimonial Soups*/
+#customers-testimonials1 .item-details {
+  background-color: #ffffff;
+  color: #000;
+  padding: 20px 10px;
+  text-align: left;
+}
+#customers-testimonials1 .item-details h5 {
+  margin: 0 0 20px;
+  font-size: 18px;
+  line-height: 12px;
+}
+#customers-testimonials1 .item-details h5 span {
+  color: red;
+  float: right;
+  font-weight: bold;
+  padding-right: 4px;
+}
+#customers-testimonials1 .item-details p {
+  font-size: 14px;
+}
+#customers-testimonials1 .item {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* customer-testimonial Starters*/
+#customers-testimonials2 .item-details {
+  background-color: #ffffff;
+  color: #000;
+  padding: 20px 10px;
+  text-align: left;
+}
+#customers-testimonials2 .item-details h5 {
+  margin: 0 0 20px;
+  font-size: 18px;
+  line-height: 12px;
+}
+#customers-testimonials2 .item-details h5 span {
+  color: red;
+  float: right;
+  font-weight: bold;
+  padding-right: 4px;
+}
+#customers-testimonials2 .item-details p {
+  font-size: 14px;
+}
+#customers-testimonials2 .item {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* testimonial for maincourse */
+#customers-testimonials3 .item-details {
+  background-color: #ffffff;
+  color: #000;
+  padding: 20px 10px;
+  text-align: left;
+}
+#customers-testimonials3 .item-details h5 {
+  margin: 0 0 20px;
+  font-size: 18px;
+  line-height: 12px;
+}
+#customers-testimonials3 .item-details h5 span {
+  color: red;
+  float: right;
+  font-weight: bold;
+  padding-right: 4px;
+}
+#customers-testimonials3 .item-details p {
+  font-size: 14px;
+}
+#customers-testimonials3 .item {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* testimonial for snacks */
+#customers-testimonials4 .item-details {
+  background-color: #ffffff;
+  color: #000;
+  padding: 20px 10px;
+  text-align: left;
+}
+#customers-testimonials4 .item-details h5 {
+  margin: 0 0 20px;
+  font-size: 18px;
+  line-height: 12px;
+}
+#customers-testimonials4 .item-details h5 span {
+  color: red;
+  float: right;
+  font-weight: bold;
+  padding-right: 4px;
+}
+#customers-testimonials4 .item-details p {
+  font-size: 14px;
+}
+#customers-testimonials4 .item {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* testimonial for breakfast */
+#customers-testimonials5 .item-details {
+  background-color: #ffffff;
+  color: #000;
+  padding: 20px 10px;
+  text-align: left;
+}
+#customers-testimonials5 .item-details h5 {
+  margin: 0 0 20px;
+  font-size: 18px;
+  line-height: 12px;
+}
+#customers-testimonials5 .item-details h5 span {
+  color: red;
+  float: right;
+  font-weight: bold;
+  padding-right: 4px;
+}
+#customers-testimonials5 .item-details p {
+  font-size: 14px;
+}
+#customers-testimonials5 .item {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* testimonials for accompaniments */
+#customers-testimonials6 .item-details {
+  background-color: #ffffff;
+  color: #000;
+  padding: 20px 10px;
+  text-align: left;
+}
+#customers-testimonials6 .item-details h5 {
+  margin: 0 0 20px;
+  font-size: 18px;
+  line-height: 12px;
+}
+#customers-testimonials6 .item-details h5 span {
+  color: red;
+  float: right;
+  font-weight: bold;
+  padding-right: 4px;
+}
+#customers-testimonials6 .item-details p {
+  font-size: 14px;
+}
+#customers-testimonials6 .item {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* testimonial 7 for Desserts */
+
+
+#customers-testimonials7 .item-details {
+  background-color: #ffffff;
+  color: #000;
+  padding: 20px 10px;
+  text-align: left;
+}
+#customers-testimonials7 .item-details h5 {
+  margin: 0 0 20px;
+  font-size: 18px;
+  line-height: 12px;
+}
+#customers-testimonials7 .item-details h5 span {
+  color: red;
+  float: right;
+  font-weight: bold;
+  padding-right: 4px;
+}
+#customers-testimonials7 .item-details p {
+  font-size: 14px;
+}
+#customers-testimonials7 .item {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* testimonial 8 for Desserts */
+
+
+#customers-testimonials8 .item-details {
+  background-color: #ffffff;
+  color: #000;
+  padding: 20px 10px;
+  text-align: left;
+}
+#customers-testimonials8 .item-details h5 {
+  margin: 0 0 20px;
+  font-size: 18px;
+  line-height: 12px;
+}
+#customers-testimonials8 .item-details h5 span {
+  color: red;
+  float: right;
+  font-weight: bold;
+  padding-right: 4px;
+}
+#customers-testimonials8 .item-details p {
+  font-size: 14px;
+}
+#customers-testimonials8 .item {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+
+/* testimonial 9 for Desserts */
+
+
+#customers-testimonials9 .item-details {
+  background-color: #ffffff;
+  color: #000;
+  padding: 20px 10px;
+  text-align: left;
+}
+#customers-testimonials9 .item-details h5 {
+  margin: 0 0 20px;
+  font-size: 18px;
+  line-height: 12px;
+}
+#customers-testimonials9 .item-details h5 span {
+  color: red;
+  float: right;
+  font-weight: bold;
+  padding-right: 4px;
+}
+#customers-testimonials9 .item-details p {
+  font-size: 14px;
+}
+#customers-testimonials9 .item {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+
+.owl-carousel .owl-nav [class*=owl-] {
+  transition: all 0.3s ease;
+}
+
+.owl-carousel .owl-nav [class*=owl-].disabled:hover {
+  background-color: #ffffff;
+}
+
+.owl-carousel {
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+}
+
+.owl-carousel .owl-next,
+.owl-carousel .owl-prev {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 15%;
+  font-size: 20px;
+  color: #000;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.owl-carousel .owl-prev {
+  left: -50px;
+}
+
+.owl-carousel .owl-next {
+  right: -50px;
+}
+
+body {
+  width: 1200px;
+  height: 500px;
+  background-color: #F8F8F8;
+  font-family: "Raleway", "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "codropsicons";
+  src: url("../fonts/codropsicons/codropsicons.eot");
+  src: url("../fonts/codropsicons/codropsicons.eot?#iefix") format("embedded-opentype"), url("../fonts/codropsicons/codropsicons.woff") format("woff"), url("../fonts/codropsicons/codropsicons.ttf") format("truetype"), url("../fonts/codropsicons/codropsicons.svg#codropsicons") format("svg");
+}
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover,
+a:focus {
+  color: #eab1c6;
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 0px;
+}
+
+.content {
+  text-align: left;
+}
+
+.info {
+  text-align: center;
+  padding-top: 2.5em;
+  font-size: 0.85em;
+  font-weight: 600;
+}
+
+/* Related demos */
+.content--related {
+  text-align: center;
+  font-weight: 400;
+}
+
+/*CHAT*/
+.chat-window button:focus {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+.chat-window {
+  position: absolute;
+  width: 320px;
+  top: 0px;
+  margin-top: 95px;
+  overflow: hidden;
+  border: 0px solid #36383a;
+  border-width: 50px 15px;
+  color: #474c57;
+  border-radius: 20px;
+  margin-left: 1160px;
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media screen and (max-width: 380px) {
+  .chat-window {
+    border: none;
+    border-radius: 0px;
+  }
+}
+.chat-window a {
+  color: #eab1c6;
+}
+
+.chat-window a:hover,
+.chat-window a:focus {
+  color: #C7668A;
+}
+
+.chat-messages {
+  height: 460px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+  position: relative;
+  border-radius: 2px 2px 0 0;
+  background: #BEE4F9;
+}
+
+.chat-messages-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  padding: 15px 25px 60px;
+}
+
+.chat-message {
+  position: relative;
+  font-size: 0;
+  margin-bottom: 10px;
+}
+
+.chat-message-effect {
+  position: absolute;
+}
+
+.chat-message-bubble {
+  display: inline-block;
+  font-size: 14px;
+  max-width: 350px;
+  background: #fff;
+  padding: 8px 14px;
+  border-radius: 18px;
+  min-width: 0;
+}
+
+.chat-message-self.chat-message-merge-start .chat-message-bubble {
+  border-bottom-right-radius: 0;
+}
+
+.chat-message-self.chat-message-merge-middle .chat-message-bubble {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.chat-message-self.chat-message-merge-end .chat-message-bubble {
+  border-top-right-radius: 0;
+}
+
+.chat-message-self {
+  text-align: right;
+}
+
+.chat-message-self .chat-message-bubble,
+.chat-message-effect .chat-message-bubble {
+  background: #32a8e6;
+  color: #fff;
+  text-align: left;
+}
+
+.chat-input-bar {
+  position: relative;
+  background: #32A8E6;
+}
+
+.chat-input-wrapper {
+  position: relative;
+  z-index: 2;
+  /*background: #32A8E6;*/
+  padding: 0.5em 0;
+  border-radius: 0 0 2px 2px;
+  color: #fff;
+}
+
+.chat-input-wrapper,
+.chat-send {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.chat-input-tool {
+  background: transparent;
+  border: none;
+  padding: 0 0.75em;
+  color: inherit;
+}
+
+.chat-input {
+  outline: none;
+  resize: none;
+  overflow: hidden;
+  min-height: 38px;
+  flex: 1;
+  font-size: 16px;
+  padding: 10px 0 7px;
+  cursor: text;
+}
+
+.chat-input:empty::before {
+  content: "Write something...";
+  color: #2B8EC2;
+}
+
+.chat-input:focus::before {
+  content: "";
+}
+
+.chat-send {
+  background: transparent;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  padding: 0 0.75em;
+  color: inherit;
+  transition: color 0.6s;
+}
+
+.chat-input:empty + .chat-send {
+  color: #2B8EC2;
+}
+
+.chat-send > i {
+  position: relative;
+}
+
+.chat-effect-container {
+  position: absolute;
+  top: -100px;
+  width: 100%;
+}
+
+.chat-effect-bar {
+  background: #32a8e6;
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  height: 40px;
+  transform: rotateY(0);
+}
+
+.chat-effect-dots {
+  position: absolute;
+}
+
+.chat-effect-dot {
+  background: #32a8e6;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+
+.chat-info-container {
+  position: absolute;
+  top: -20px;
+  font-size: 12px;
+  color: #2B8EC2;
+}
+
+.chat-info-typing {
+  position: absolute;
+  left: 80px;
+  white-space: nowrap;
+}
+
+.title h1 {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 4px;
+  font-size: 90px;
+  font-family: serif;
+  font-display: block;
+  font-color: #000;
+}
+
+.title p {
+  font-family: "Dancing Script", cursive;
+  font-size: 18px;
+  matgin-top: 0px;
+  text-align: center;
+}
+
+/* Buttons */
+body .btn {
+  display: inline-block;
+  padding: 6px 14px 6px;
+  margin-bottom: 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #000000;
+  background-image: -linear-gradient(rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.05) 95%);
+  background-image: -ms-linear-gradient(rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.05) 95%);
+  background-repeat: repeat-x;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.1s;
+  /* Safari/Chrome, other WebKit */
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+}
+
+body .btn:hover {
+  background-color: #0098ff;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.2);
+  margin-top: -2px;
+  padding: 6px 14px 8px;
+}
+
+body .btn:active {
+  box-shadow: none;
+  margin-top: 2px;
+  padding: 6px 14px 4px;
+  background-color: red;
+}
+
+body .btn-gray {
+  color: #000000;
+  background-color: #F5F5F5;
+}
+
+body .btn-gray:hover {
+  background-color: #DDDDDD;
+}
+
+/*body .btn-nonveg { color:#FF0000; background-color: #ffffff; margin-left:80px; border-radius:2%;}
+body .btn-nonveg:hover { color:#FF0000; background-color: #ffffff; margin-left:80px; border-radius:2%; }
+*/
+body .btn-dkblue {
+  background-color: #054375;
+}
+
+body .btn-dkblue:hover {
+  background-color: #0066b8;
+}
+
+body .btn-ltblue {
+  background-color: #00a4d8;
+}
+
+body .btn-ltblue:hover {
+  background-color: #01c2ff;
+}
+
+body .btn-black {
+  background-color: #222222;
+}
+
+body .btn-black:hover {
+  background-color: #01c2ff;
+}
+
+body .btn-large {
+  padding: 8px 28px;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 4px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.2);
+}
+
+body .btn-large:hover {
+  box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.2);
+  margin-top: -4px;
+  padding: 8px 28px 12px;
+}
+
+body .btn-large:active {
+  box-shadow: none;
+  margin-top: 3px;
+  padding: 8px 28px 5px;
+  background-color: red;
+}
+
+body .btn-small {
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+  padding: 0 8px;
+  margin-top: -5px;
+  margin-bottom: -4px;
+}
+
+body .btn-small:hover {
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+  padding: 0 8px 2px;
+  margin-top: -7px;
+}
+
+body .btn-small:active {
+  box-shadow: none;
+  padding: 0 8px 0px;
+  margin-top: -5px;
+}
+
+body .btn-block {
+  padding: 8px 28px;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 4px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 960px;
+}
+
+body .btn-block:hover {
+  box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.2);
+  margin-top: -4px;
+  padding: 8px 28px 12px;
+}
+
+body .btn-block:active {
+  box-shadow: none;
+  margin-top: 3px;
+  padding: 8px 28px 5px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+/*shopping cart*/
+.badge-notify {
+  background: red;
+  position: absolute;
+  padding-top: 6px;
+  padding-right: 6px;
+  margin-top: -10px;
+  width: 22px;
+  height: 20px;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.btn-danger {
+  border-radius: 60%;
+}
+
+.Menu2 {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  overflow: hidden;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+/*.modal-backdrop {display: none;}*/
+.btn_ {
+  /*color:#FF0000; background-color: #ffffff; margin-left:8px; border-radius:2%;
+  	*/
+  display: inline-block;
+  padding: 4px 4px 4px;
+  margin-left: 150px;
+  margin-bottom: 0;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  background-color: #FFFFFF;
+  color: #A42A04;
+  text-align: center;
+}
+</style>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+</span><!-- TESTIMONIALS -->
+
+<div id="container">
+<div class="title">
+	
+          <h1><b>bon appétit.</b></h1>
+					<p>A place where food, design, and ambiance come together to create a memorable experience. 
+        
+	<!--<div>
+		<p>Hi hello how are you
+</div>-->
+		
+</div>
+	
+	
+<div class="Menu2"><h2><strong>Menu</strong>
+	<div class="glyphicon glyphicon-shopping-cart my-cart-icon"><span>
+		<div class="badge badge-notify my-cart-badge"></div></span>
+	</h2>
+</div>
+		
+	</div>
+	<div class="container">
+		<button type="button" id="11" class= "btn btn-gray this1">Soups</button>
+		<button type="button" id="12" class= "btn btn-gray this1">Starters</button>
+		<button type="button" id="13" class= "btn btn-gray this1">MainCourse</button>
+		<button type="button" id="14" class= "btn btn-gray this1">Snacks</button>
+		<button type="button" id="15" class= "btn btn-gray this1">Breakfast</button>
+		<button type="button" id="16" class= "btn btn-gray this1">accompaniments</button>
+		<button type="button" id="17" class= "btn btn-gray this1">Desserts</button>
+	</div>
+	
+	<div class="container">
+		<button type="button" id="18" class= "btn btn-gray this1">Vegetarian</button>
+		<button type="button" id="19" class= "btn btn-gray this1">Non-Vegetarian</button>
+	</div>
+	
+	<div class="container">
+		<button type="button" id="20" class= "btn btn-gray this1">Recommended</button>
+		
+	</div>
+		
+
+	
+<!-- Functionality for Menu -->
+
+<div class="testimonials">
+
+
+      <div class="row">
+        <div class="col-sm-12">
+	
+					
+					
+<!-- Group1 starts for Soups menu-->
+			<div id="customers-testimonials1" class="owl-carousel">
+						
+
+            <!--TESTIMONIAL 1 -->
+            <div class="item">
+                <div class="shadow-effect">
+					<img class="img-responsive" src="../static/images/item1.jpg" alt="">
+					
+					<div class="item-details">
+						<h5>Sample Menu 1<span>
+							<strong>₹100</strong></span></h5>
+									
+									
+									
+					<button class= "btn btn-danger my-cart-btn" data-id="1" data-name="Product-1" data-summary="summary-1" data-price="100" data-quantity="1" data-image="../static/images/item1.jpg">
+						<strong>Add to Cart</strong>
+					</button>
+                  
+					</div>
+				</div>
+            </div>
+			
+            <!--END OF TESTIMONIAL 1 -->
+            <!--TESTIMONIAL 2 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item2.jpg" alt="">
+                <div class="item-details">
+						<h5>Sample Menu 2<span><strong>₹100</strong></span></h5>
+									
+						<button class= "btn btn-danger my-cart-btn" data-id="2" data-name="Product-2" data-summary="summary-2" data-price="100" data-quantity="1" data-image="../static/images/item2.jpg"><strong>Add to Cart</strong> </button>
+				</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 2 -->
+            <!--TESTIMONIAL 3 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item3.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 3<span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="3" data-name="Product-3" data-summary="summary-3" data-price="100" data-quantity="1" data-image="../static/images/item3.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 3 -->
+            <!--TESTIMONIAL 4 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item4.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 4<span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="4" data-name="Product-4" data-summary="summary-4" data-price="100" data-quantity="1" data-image="../static/images/item4.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 4 -->
+            <!--TESTIMONIAL 5 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item5.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 5<span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="5" data-name="Product-5" data-summary="summary-5" data-price="100" data-quantity="1" data-image="../static/images/item5.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 5 -->
+          </div>
+							
+				
+<!-- Group1 for Soups ends -->
+					
+					
+					
+<!-- Group for Popular Menu starts -->
+					
+            <div id="customers-testimonials" class="owl-carousel">
+						
+
+            <!--TESTIMONIAL 1 -->
+            <div class="item">
+							<!--<h6><strong> Item Added! </strong></h6>-->
+              <div class="shadow-effect">
+                <img class="img-responsive" src="https://image.freepik.com/free-photo/spaghetti-with-carbonara-sauce_1216-324.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 1 <span><strong>₹100</strong></span></h5>
+									
+									
+									
+				 <button class= "btn btn-danger my-cart-btn" data-id="6" data-name="Product-6" data-summary="summary-6" data-price="100" data-quantity="1" data-image="https://image.freepik.com/free-photo/spaghetti-with-carbonara-sauce_1216-324.jpg"><strong>Add to Cart</strong></button>
+									<!--<span><i class='fas fa-leaf' style='font-size:14px; color:green'></i></span>-->
+								
+									
+                  
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 1 -->
+            <!--TESTIMONIAL 2 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="https://image.freepik.com/free-photo/dishes-with-healthy-waffles_1220-367.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 2 <span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="7" data-name="Product-7" data-summary="summary-7" data-price="100" data-quantity="1" data-image="https://image.freepik.com/free-photo/dishes-with-healthy-waffles_1220-367.jpg"><strong>Add to Cart</strong> </button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 2 -->
+            <!--TESTIMONIAL 3 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="https://image.freepik.com/free-photo/top-view-of-tasty-noodles-with-prawns_1203-1769.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 3 <span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="8" data-name="Product-8" data-summary="summary-8" data-price="100" data-quantity="1" data-image="https://image.freepik.com/free-photo/top-view-of-tasty-noodles-with-prawns_1203-1769.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 3 -->
+            <!--TESTIMONIAL 4 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="https://image.freepik.com/free-photo/burguer-with-garnish_1088-72.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 4<span><strong>₹120</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="9" data-name="Product-9" data-summary="summary-9" data-price="120" data-quantity="1" data-image="https://image.freepik.com/free-photo/burguer-with-garnish_1088-72.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 4 -->
+            <!--TESTIMONIAL 5 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="https://image.freepik.com/free-photo/delicious-pastry-with-chicken_1203-1616.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 5<span><strong>₹90</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="10" data-name="Product-10" data-summary="summary-10" data-price="90" data-quantity="1" data-image="https://image.freepik.com/free-photo/delicious-pastry-with-chicken_1203-1616.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 5 -->
+          </div>
+					
+<!-- Group for Popular Menu ends -->
+					
+<!-- Group2 Starters starts here -->
+					
+			<div id="customers-testimonials2" class="owl-carousel">
+						
+
+            <!--TESTIMONIAL 1 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item6.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 1<span><strong>₹100</strong></span></h5>
+									
+									
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="11" data-name="Product-11" data-summary="summary-1" data-price="10" data-quantity="1" data-image="../static/images/item6.jpg"><strong>Add to Cart</strong></button>
+                  
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 1 -->
+            <!--TESTIMONIAL 2 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item7.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 2<span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="12" data-name="Product-12" data-summary="summary-1" data-price="100" data-quantity="1" data-image="../static/images/item7.jpg"><strong>Add to Cart</strong> </button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 2 -->
+            <!--TESTIMONIAL 3 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item8.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 3<span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="13" data-name="Product-13" data-summary="summary-1" data-price="100" data-quantity="1" data-image="../static/images/item8.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 3 -->
+            <!--TESTIMONIAL 4 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item9.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 4<span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="14" data-name="Product-14" data-summary="summary-1" data-price="100" data-quantity="1" data-image="../static/images/item9.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 4 -->
+            <!--TESTIMONIAL 5 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item10.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 5<span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="15" data-name="Product-15" data-summary="summary-1" data-price="100" data-quantity="1" data-image="../static/images/item10.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 5 -->
+          </div>
+							
+					
+<!-- Group2 Starters ends here -->
+					
+<!-- Group 3 for maincourse starts -->
+			<div id="customers-testimonials3" class="owl-carousel">
+						
+
+            <!--TESTIMONIAL 1 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item11.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 1<span><strong>₹100</strong></span></h5>
+									
+									
+									
+				 <button class= "btn btn-danger my-cart-btn" data-id="16" data-name="Product-16" data-summary="summary-1" data-price="100" data-quantity="1" data-image="../static/images/item11.jpg"><strong>Add to Cart</strong></button>
+                  
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 1 -->
+            <!--TESTIMONIAL 2 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item12.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 2<span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="17" data-name="Product-17" data-summary="summary-1" data-price="100" data-quantity="1" data-image="../static/images/item12.jpg"><strong>Add to Cart</strong> </button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 2 -->
+            <!--TESTIMONIAL 3 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item13.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 3 <span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="18" data-name="Product-18" data-summary="summary-1" data-price="100" data-quantity="1" data-image="../static/images/item13.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 3 -->
+            <!--TESTIMONIAL 4 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item14.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 4<span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="19" data-name="Product-19" data-summary="summary-1" data-price="100" data-quantity="1" data-image="../static/images/item14.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 4 -->
+            <!--TESTIMONIAL 5 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item15.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 5<span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="20" data-name="Product-20" data-summary="summary-1" data-price="100" data-quantity="1" data-image="../static/images/item15.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 5 -->
+          </div>
+												
+<!-- Group 3 for maincourse ends here -->
+
+<!-- Group 4 for snacks starts here -->
+			<div id="customers-testimonials4" class="owl-carousel">
+						
+
+            <!--TESTIMONIAL 1 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item16.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 1<span><strong>₹80</strong></span></h5>
+									
+									
+									
+				 <button class= "btn btn-danger my-cart-btn" data-id="21" data-name="Product-21" data-summary="summary-1" data-price="80" data-quantity="1" data-image="../static/images/item16.jpg"><strong>Add to Cart</strong></button>
+                  
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 1 -->
+            <!--TESTIMONIAL 2 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item17.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 2<span><strong>₹80</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="22" data-name="Product-22" data-summary="summary-1" data-price="80" data-quantity="1" data-image="../static/images/item17.jpg"><strong>Add to Cart</strong> </button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 2 -->
+            <!--TESTIMONIAL 3 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item18.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 3<span><strong>₹80</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="23" data-name="Product-23" data-summary="summary-1" data-price="80" data-quantity="1" data-image="../static/images/item18.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 3 -->
+            <!--TESTIMONIAL 4 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item19.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 4<span><strong>₹80</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="24" data-name="Product-24" data-summary="summary-1" data-price="80" data-quantity="1" data-image="../static/images/item19.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 4 -->
+            <!--TESTIMONIAL 5 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item20.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 5<span><strong>₹80</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="25" data-name="Product-25" data-summary="summary-1" data-price="80" data-quantity="1" data-image="../static/images/item20.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 5 -->
+          </div>
+							
+<!-- Group4 for snacks ends here -->
+
+<!-- Group 5 for breakfast starts here -->
+			<div id="customers-testimonials5" class="owl-carousel">
+						
+
+            <!--TESTIMONIAL 1 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item21.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 1<span><strong>₹80</strong></span></h5>
+									
+									
+									
+				 <button class= "btn btn-danger my-cart-btn" data-id="26" data-name="Product-26" data-summary="summary-1" data-price="80" data-quantity="1" data-image="../static/images/item21.jpg"><strong>Add to Cart</strong></button>
+                  
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 1 -->
+            <!--TESTIMONIAL 2 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item22.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 2<span><strong>₹80</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="27" data-name="Product-27" data-summary="summary-1" data-price="80" data-quantity="1" data-image="../static/images/item22.jpg"><strong>Add to Cart</strong> </button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 2 -->
+            <!--TESTIMONIAL 3 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item23.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 3<span><strong>₹80</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="28" data-name="Product-28" data-summary="summary-1" data-price="80" data-quantity="1" data-image="../static/images/item23.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 3 -->
+            <!--TESTIMONIAL 4 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item24.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 4<span><strong>₹80</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="29" data-name="Product-29" data-summary="summary-1" data-price="80" data-quantity="1" data-image="../static/images/item24.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 4 -->
+            <!--TESTIMONIAL 5 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item25.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 5<span><strong>₹80</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="30" data-name="Product-30" data-summary="summary-1" data-price="80" data-quantity="1" data-image="../static/images/item25.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 5 -->
+          </div>
+							
+<!-- Group 5 for breakfast ends here -->
+
+<!-- Group 6 for accompaniments starts here -->
+			<div id="customers-testimonials6" class="owl-carousel">
+						
+
+            <!--TESTIMONIAL 1 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item26.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 1<span><strong>₹40</strong></span></h5>
+									
+									
+									
+				 <button class= "btn btn-danger my-cart-btn" data-id="31" data-name="Product-31" data-summary="summary-1" data-price="40" data-quantity="1" data-image="../static/images/item26.jpg"><strong>Add to Cart</strong></button>
+                  
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 1 -->
+            <!--TESTIMONIAL 2 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item27.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 2<span><strong>₹40</strong></span></h5>
+									
+				<button class= "btn btn-danger my-cart-btn" data-id="32" data-name="Product-32" data-summary="summary-1" data-price="40" data-quntity="1" data-image="../static/images/item27.jpg"><strong>Add to Cart</strong> </button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 2 -->
+            <!--TESTIMONIAL 3 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item28.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 3<span><strong>₹40</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="33" data-name="Product-33" data-summary="summary-1" data-price="40" data-quantity="1" data-image="../static/images/item28.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 3 -->
+            <!--TESTIMONIAL 4 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item29.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 4<span><strong>₹40</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="34" data-name="Product-34" data-summary="summary-1" data-price="40" data-quantity="1" data-image="../static/images/item29.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 4 -->
+            <!--TESTIMONIAL 5 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item30.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 5<span><strong>₹40</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="35" data-name="Product-35" data-summary="summary-1" data-price="40" data-quantity="1" data-image="../static/images/item30.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 5 -->
+          </div>
+							
+
+<!-- Groups 6 for accompaniments ends here -->
+
+<!-- Group 7 for Desserts starts here -->
+			<div id="customers-testimonials7" class="owl-carousel">
+						
+
+            <!--TESTIMONIAL 1 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item31.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 1<span><strong>₹100</strong></span></h5>
+									
+									
+									
+				 <button class= "btn btn-danger my-cart-btn" data-id="36" data-name="Product-36" data-summary="summary-1" data-price="100" data-quantity="1" data-image="../static/images/item31.jpg"><strong>Add to Cart</strong></button>
+                  
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 1 -->
+            <!--TESTIMONIAL 2 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item32.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 2<span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="37" data-name="Product-37" data-summary="summary-1" data-price="100" data-quntity="1" data-image="../static/images/item32.jpg"><strong>Add to Cart</strong> </button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 2 -->
+            <!--TESTIMONIAL 3 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item33.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 3<span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="38" data-name="Product-38" data-summary="summary-1" data-price="100" data-quantity="1" data-image="../static/images/item33.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 3 -->
+            <!--TESTIMONIAL 4 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item34.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 4<span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="39" data-name="Product-39" data-summary="summary-1" data-price="100" data-quantity="1" data-image="../static/images/item34.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 4 -->
+            <!--TESTIMONIAL 5 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item35.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 5<span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="40" data-name="Product-40" data-summary="summary-1" data-price="100" data-quantity="1" data-image="../static/images/item35.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 5 -->
+          </div>
+							
+
+<!-- Groups 7 for Desserts ends here -->
+
+<!-- Group 8 for Vegetarian starts here -->
+			<div id="customers-testimonials8" class="owl-carousel">
+						
+
+            <!--TESTIMONIAL 1 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item36.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 1<span><strong>₹100</strong></span></h5>
+									
+									
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="41" data-name="Product-41" data-summary="summary-1" data-price="100" data-quantity="1" data-image="../static/images/item36.jpg"><strong>Add to Cart</strong></button>
+									<span><i class='fas fa-leaf' style='font-size:14px; color:green'></i></span>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 1 -->
+            <!--TESTIMONIAL 2 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item37.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 2<span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="42" data-name="Product-42" data-summary="summary-1" data-price="100" data-quntity="1" data-image="../static/images/item37.jpg"><strong>Add to Cart</strong> </button>
+									<span><i class='fas fa-leaf' style='font-size:14px; color:green'></i></span>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 2 -->
+            <!--TESTIMONIAL 3 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item38.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 3<span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="43" data-name="Product-43" data-summary="summary-1" data-price="100" data-quantity="1" data-image="../static/images/item38.jpg"><strong>Add to Cart</strong></button>
+									<span><i class='fas fa-leaf' style='font-size:14px; color:green'></i></span>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 3 -->
+            <!--TESTIMONIAL 4 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item39.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 4<span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="44" data-name="Product-44" data-summary="summary-1" data-price="100" data-quantity="1" data-image="../static/images/item39.jpg"><strong>Add to Cart</strong></button>
+									<span><i class='fas fa-leaf' style='font-size:14px; color:green'></i></span>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 4 -->
+            <!--TESTIMONIAL 5 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item40.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 5<span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="45" data-name="Product-45" data-summary="summary-1" data-price="100" data-quantity="1" data-image="../static/images/item40.jpg"><strong>Add to Cart</strong></button>
+									<span><i class='fas fa-leaf' style='font-size:14px; color:green'></i></span>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 5 -->
+          </div>
+							
+
+<!-- Groups 8 for Vegetarian ends here -->
+
+
+<!-- Group 9 for Non-Vegetarian starts here -->
+			<div id="customers-testimonials9" class="owl-carousel">
+						
+
+            <!--TESTIMONIAL 1 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item41.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 1<span><strong>₹100</strong></span></h5>
+									
+									
+									
+				 <button class= "btn btn-danger my-cart-btn" data-id="46" data-name="Product-46" data-summary="summary-1" data-price="100" data-quantity="1" data-image="../static/images/item41.jpg"><strong>Add to Cart</strong></button>
+                  
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 1 -->
+            <!--TESTIMONIAL 2 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item42.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 2<span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="47" data-name="Product-47" data-summary="summary-1" data-price="100" data-quntity="1" data-image="../static/images/item42.jpg"><strong>Add to Cart</strong> </button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 2 -->
+            <!--TESTIMONIAL 3 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item43.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 3<span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="48" data-name="Product-48" data-summary="summary-1" data-price="100" data-quantity="1" data-image="../static/images/item43.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 3 -->
+            <!--TESTIMONIAL 4 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item44.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 4<span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="49" data-name="Product-49" data-summary="summary-1" data-price="100" data-quantity="1" data-image="../static/images/item44.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 4 -->
+            <!--TESTIMONIAL 5 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-responsive" src="../static/images/item45.jpg" alt="">
+                <div class="item-details">
+									<h5>Sample Menu 5<span><strong>₹100</strong></span></h5>
+									
+									<button class= "btn btn-danger my-cart-btn" data-id="50" data-name="Product-50" data-summary="summary-1" data-price="100" data-quantity="1" data-image="../static/images/item45.jpg"><strong>Add to Cart</strong></button>
+								</div>
+              </div>
+            </div>
+            <!--END OF TESTIMONIAL 5 -->
+          </div>
+							
+
+<!-- Groups 9 for Non-VegetarianVegetarian ends here -->
+
+
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+        </div>
+      </div>
+      </div>
+    </div>
+
+<!-- END OF Functionality for Menu -->
+
+
+
+<!-- FUNCTIONALITY FOR CHATBOT -->
+
+<div id="container">
+			<div class="content">
+				<div class="chat-window">
+					<div class="chat-messages">
+						<ol class="chat-messages-list">
+							<li class="chat-message chat-message-friend">
+								<div class="chat-message-bubble">
+									👋 You are chatting with our Customer support bot.
+								</div>
+							</li>
+													
+						</ol>
+					</div>
+					<div class="chat-input-bar">
+						<div class="chat-info-container">
+
+						</div>
+						<div class="chat-effect-container">
+							<div class="chat-effect-bar"></div>
+						</div>
+						<div class="chat-input-wrapper">
+							<button class="chat-input-tool">
+								<i class="icon icon-camera"></i>
+							</button>
+							<div class="chat-input" contenteditable></div>
+							<button class="chat-send">
+								<i class="fa fa-paper-plane"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800">
+			  <defs>
+			    <filter id="goo">
+			      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+			      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+			      <feComposite in="SourceGraphic" in2="goo" />
+			    </filter>
+			  </defs>
+			</svg>
+		</div>
+
+
+<!-- END OF FUNCTIONALITY FOR CHATBOT -->
+
+
+<!-- Other options -->
+
+<section class="container">
+    <div class="page-header">
+ <a href="https://github.com/Pradnya1208/Intent-classification-based-food-delivery-chatbot" target="_blank"></a>    
+  </div>
+   
+</section>
+
+<a href="https://github.com/Pradnya1208/Intent-classification-based-food-delivery-chatbot" alt="Clock to see the chatbot implememntation" class="github-corner" aria-label="View source on Github" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#f44336; color:#ECEFF1; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js'></script>
+<script src='https://github.com/Pradnya1208/jquery.mycart/blob/main/js/jquery.mycart.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js'></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script  src="./script.js"></script>
+
+<script>
+var KEY_ENTER=13;
+var previous_button="0";
+var productData="";
+var orderIDstring="NO";
+var statusIDstring="NO";
+
+
+// Menu
+$(document).ready(function($) {
+	// By Default Functionality
+	$('#customers-testimonials').owlCarousel( {
+		loop: true,
+		center: true,
+		items: 3,
+		margin: 20,
+		autoplay: true,
+		dots:true,
+    nav:true,
+		autoplayTimeout: 8500,
+		smartSpeed: 450,
+  	navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+		responsive: {
+			1: {
+				items: 1
+			},
+			2: {
+				items: 2
+			},
+			3: {
+				items: 3
+			},
+		
+		}
+	});
+	// Menu selection
+  $('.this1').click(function() {
+			console.log( $(this).attr('id'));
+			console.log(previous_button);
+			// 1. Soups functionality
+      if('11' === $(this).attr('id')) { 
+				console.log("Soups button clicked");
+				console.log(previous_button);
+				$("#customers-testimonials").hide();
+				// Toggle Functions
+
+				
+				if(previous_button == '12') {
+					$("#customers-testimonials2").hide();
+					$("#customers-testimonials1").toggle();
+					previous_button="11";
+				}
+				if(previous_button == '13') {
+					$("#customers-testimonials3").hide();
+					$("#customers-testimonials1").toggle();
+					previous_button="11";
+				}
+				if(previous_button == '14') {
+					$("#customers-testimonials4").hide();
+					$("#customers-testimonials1").toggle();
+					previous_button="11";
+				}
+				if(previous_button == '15') {
+					$("#customers-testimonials5").hide();
+					$("#customers-testimonials1").toggle();
+					previous_button="11";
+				}
+				if(previous_button == '16') {
+					$("#customers-testimonials6").hide();
+					$("#customers-testimonials1").toggle();
+					previous_button="11";
+				}	
+				if(previous_button == '17') {
+					$("#customers-testimonials7").hide();
+					$("#customers-testimonials1").toggle();
+					previous_button="11";
+				}
+				if(previous_button == '18') {
+					$("#customers-testimonials8").hide();
+					$("#customers-testimonials1").toggle();
+					previous_button="11";
+				}
+				
+				if(previous_button == '19') {
+					$("#customers-testimonials9").hide();
+					$("#customers-testimonials1").toggle();
+					previous_button="11";
+				}
+				
+				if(previous_button == '0') {
+					$("#customers-testimonials").hide();
+					$("#customers-testimonials1").toggle();
+					previous_button="11";
+				}	
+				
+			  
+				if(previous_button == '11') {
+					$("#customers-testimonials1").show();
+					previous_button="11";
+				}
+				
+
+								
+				$('#customers-testimonials1').owlCarousel( {
+								loop: true,
+								center: true,
+								items: 3,
+								margin: 20,
+								autoplay: true,
+								dots:true,
+    						nav:true,
+								autoplayTimeout: 8500,
+								smartSpeed: 450,
+  							navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+								responsive: {
+									1: {
+												items: 1
+											},
+									2: {
+												items: 2
+											},
+									3: {
+												items: 3
+											},
+		
+									}
+					});
+				// End of soups menu
+	      
+				
+        }
+			// 2. Starters functionality
+      if('12' === $(this).attr('id')) { 
+				console.log("Starters button clicked");
+				$("#customers-testimonials").hide();
+				// Toggle Functions
+
+				if(previous_button == '11') {
+					$("#customers-testimonials1").hide();
+					$("#customers-testimonials2").toggle();
+					previous_button="12";
+				}
+				if(previous_button == '0') {
+					$("#customers-testimonials").hide();
+					$("#customers-testimonials2").toggle();
+					previous_button="12";
+				}
+				if(previous_button == '13') {
+					$("#customers-testimonials3").hide();
+					$("#customers-testimonials2").toggle();
+					previous_button="12";
+					
+				}
+				if(previous_button == '14') {
+					$("#customers-testimonials4").hide();
+					$("#customers-testimonials2").toggle();
+					previous_button="12";
+				}
+				if(previous_button == '15') {
+					$("#customers-testimonials5").hide();
+					$("#customers-testimonials2").toggle();
+					previous_button="12";
+				}
+				if(previous_button == '16') {
+					$("#customers-testimonials6").hide();
+					$("#customers-testimonials2").toggle();
+					previous_button="12";
+				}
+				if(previous_button == '17') {
+					$("#customers-testimonials7").hide();
+					$("#customers-testimonials2").toggle();
+					previous_button="12";
+				}
+				if(previous_button == '18') {
+					$("#customers-testimonials8").hide();
+					$("#customers-testimonials2").toggle();
+					previous_button="12";
+				}
+				
+				if(previous_button == '19') {
+					$("#customers-testimonials9").hide();
+					$("#customers-testimonials2").toggle();
+					previous_button="12";
+				}
+				// Toggle Functions
+			  if(previous_button == '12') {
+					$("#customers-testimonials2").show();
+					previous_button="12";
+					
+				}
+				
+
+				
+				$('#customers-testimonials2').owlCarousel( {
+								loop: true,
+								center: true,
+								items: 3,
+								margin: 20,
+								autoplay: true,
+								dots:true,
+    						nav:true,
+								autoplayTimeout: 8500,
+								smartSpeed: 450,
+  							navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+								responsive: {
+									1: {
+												items: 1
+											},
+									2: {
+												items: 2
+											},
+									3: {
+												items: 3
+											},
+		
+									}
+					});
+		    
+        }
+			// 3. Maincourse functionality
+        if('13' === $(this).attr('id')) { 
+				console.log("Maincourse button clicked");
+				$("#customers-testimonials").hide();
+				// Toggle Functions
+
+				if(previous_button == '11') {
+					$("#customers-testimonials1").hide();
+					$("#customers-testimonials3").toggle();
+					previous_button="13";
+				}
+				if(previous_button == '12') {
+					$("#customers-testimonials2").hide();
+					$("#customers-testimonials3").toggle();
+					previous_button="13";
+				}
+				if(previous_button == '0') {
+					$("#customers-testimonials").hide();
+					$("#customers-testimonials3").toggle();
+					previous_button="13";
+				}
+				if(previous_button == '14') {
+					$("#customers-testimonials4").hide();
+					$("#customers-testimonials3").toggle();
+					previous_button="13";
+				}
+				if(previous_button == '15') {
+					$("#customers-testimonials5").hide();
+					$("#customers-testimonials3").toggle();
+					previous_button="13";
+				}
+				if(previous_button == '16') {
+					$("#customers-testimonials6").hide();
+					$("#customers-testimonials3").toggle();
+					previous_button="13";
+				}	
+				if(previous_button == '17') {
+					$("#customers-testimonials7").hide();
+					$("#customers-testimonials3").toggle();
+					previous_button="13";
+				}
+				if(previous_button == '18') {
+					$("#customers-testimonials8").hide();
+					$("#customers-testimonials3").toggle();
+					previous_button="13";
+				}
+				
+				if(previous_button == '19') {
+					$("#customers-testimonials9").hide();
+					$("#customers-testimonials3").toggle();
+					previous_button="13";
+				}				
+				
+				if(previous_button == '13') {
+					$("#customers-testimonials3").show();
+					previous_button="13";
+				}
+				
+		
+
+				$('#customers-testimonials3').owlCarousel( {
+								loop: true,
+								center: true,
+								items: 3,
+								margin: 20,
+								autoplay: true,
+								dots:true,
+    						nav:true,
+								autoplayTimeout: 8500,
+								smartSpeed: 450,
+  							navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+								responsive: {
+									1: {
+												items: 1
+											},
+									2: {
+												items: 2
+											},
+									3: {
+												items: 3
+											},
+		
+									}
+					});
+				
+        }
+			// 4. Snacks menu
+      if('14' === $(this).attr('id')) { 
+				console.log("Snacks button clicked");
+				$("#customers-testimonials").hide();
+				// Toggle Functions
+
+				if(previous_button == '11') {
+					$("#customers-testimonials1").hide();
+					$("#customers-testimonials4").toggle();
+					previous_button="14";
+				}
+				if(previous_button == '12') {
+					$("#customers-testimonials2").hide();
+					$("#customers-testimonials4").toggle();
+					previous_button="14";
+				}
+				if(previous_button == '13') {
+					$("#customers-testimonials3").hide();
+					$("#customers-testimonials4").toggle();
+					previous_button="14";
+				}
+				if(previous_button == '0') {
+					$("#customers-testimonials").hide();
+					$("#customers-testimonials4").toggle();
+					previous_button="14";
+				}
+				if(previous_button == '15') {
+					$("#customers-testimonials5").hide();
+					$("#customers-testimonials4").toggle();
+					previous_button="14";
+				}
+				if(previous_button == '16') {
+					$("#customers-testimonials6").hide();
+					$("#customers-testimonials4").toggle();
+					previous_button="14";
+				}
+				if(previous_button == '17') {
+					$("#customers-testimonials7").hide();
+					$("#customers-testimonials4").toggle();
+					previous_button="14";
+				}
+				if(previous_button == '18') {
+					$("#customers-testimonials8").hide();
+					$("#customers-testimonials4").toggle();
+					previous_button="14";
+				}
+				
+				if(previous_button == '19') {
+					$("#customers-testimonials9").hide();
+					$("#customers-testimonials4").toggle();
+					previous_button="14";
+				}
+				if(previous_button == '14') {
+					$("#customers-testimonials4").show();
+					previous_button="14";
+				}
+				
+		
+
+				$('#customers-testimonials4').owlCarousel( {
+								loop: true,
+								center: true,
+								items: 3,
+								margin: 20,
+								autoplay: true,
+								dots:true,
+    						nav:true,
+								autoplayTimeout: 8500,
+								smartSpeed: 450,
+  							navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+								responsive: {
+									1: {
+												items: 1
+											},
+									2: {
+												items: 2
+											},
+									3: {
+												items: 3
+											},
+		
+									}
+					});
+		
+				
+        }
+			// 5. Breakfast menu
+      if('15' === $(this).attr('id')) { 
+				console.log("breakfast button clicked");
+				$("#customers-testimonials").hide();
+				// Toggle Functions
+
+				if(previous_button == '11') {
+					$("#customers-testimonials1").hide();
+					$("#customers-testimonials5").toggle();
+					previous_button="15";
+				}
+				if(previous_button == '12') {
+					$("#customers-testimonials2").hide();
+					$("#customers-testimonials5").toggle();
+					previous_button="15";
+				}
+				if(previous_button == '13') {
+					$("#customers-testimonials3").hide();
+					$("#customers-testimonials5").toggle();
+					previous_button="15";
+				}
+				if(previous_button == '14') {
+					$("#customers-testimonials4").hide();
+					$("#customers-testimonials5").toggle();
+					previous_button="15";
+				}
+				if(previous_button == '0') {
+					$("#customers-testimonials").hide();
+					$("#customers-testimonials5").toggle();
+					previous_button="15";
+				}
+				if(previous_button == '16') {
+					$("#customers-testimonials6").hide();
+					$("#customers-testimonials5").toggle();
+					previous_button="15";
+				}			
+
+				if(previous_button == '17') {
+					$("#customers-testimonials7").hide();
+					$("#customers-testimonials5").toggle();
+					previous_button="15";
+				}
+				if(previous_button == '18') {
+					$("#customers-testimonials8").hide();
+					$("#customers-testimonials5").toggle();
+					previous_button="15";
+				}
+				
+				if(previous_button == '19') {
+					$("#customers-testimonials9").hide();
+					$("#customers-testimonials5").toggle();
+					previous_button="15";
+				}
+				if(previous_button == '15') {
+					$("#customers-testimonials5").show();
+					previous_button="15";
+				}
+				
+		
+
+
+				$('#customers-testimonials5').owlCarousel( {
+								loop: true,
+								center: true,
+								items: 3,
+								margin: 20,
+								autoplay: true,
+								dots:true,
+    						nav:true,
+								autoplayTimeout: 8500,
+								smartSpeed: 450,
+  							navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+								responsive: {
+									1: {
+												items: 1
+											},
+									2: {
+												items: 2
+											},
+									3: {
+												items: 3
+											},
+		
+									}
+					});
+				
+        }
+			// 6. accompaniments menu
+      if('16' === $(this).attr('id')) { 
+				console.log("accompaniments button clicked");
+				$("#customers-testimonials").hide();
+				// Toggle Functions
+
+				if(previous_button == '11') {
+					$("#customers-testimonials1").hide();
+					$("#customers-testimonials6").toggle();
+					previous_button="16";
+				}
+				if(previous_button == '12') {
+					$("#customers-testimonials2").hide();
+					$("#customers-testimonials6").toggle();
+					previous_button="16";
+				}
+				if(previous_button == '13') {
+					$("#customers-testimonials3").hide();
+					$("#customers-testimonials6").toggle();
+					previous_button="16";
+				}
+				if(previous_button == '14') {
+					$("#customers-testimonials4").hide();
+					$("#customers-testimonials6").toggle();
+					previous_button="16";
+				}
+				if(previous_button == '15') {
+					$("#customers-testimonials5").hide();
+					$("#customers-testimonials6").toggle();
+					previous_button="16";
+				}
+				if(previous_button == '0') {
+					$("#customers-testimonials").hide();
+					$("#customers-testimonials6").toggle();
+					previous_button="16";
+				}
+				if(previous_button == '17') {
+					$("#customers-testimonials7").hide();
+					$("#customers-testimonials6").toggle();
+					previous_button="16";
+				}
+				if(previous_button == '18') {
+					$("#customers-testimonials8").hide();
+					$("#customers-testimonials6").toggle();
+					previous_button="16";
+				}
+				
+				if(previous_button == '19') {
+					$("#customers-testimonials9").hide();
+					$("#customers-testimonials6").toggle();
+					previous_button="16";
+				}
+				if(previous_button == '16') {
+					$("#customers-testimonials6").show();
+					previous_button="16";
+				}
+				
+
+				
+				$('#customers-testimonials6').owlCarousel( {
+								loop: true,
+								center: true,
+								items: 3,
+								margin: 20,
+								autoplay: true,
+								dots:true,
+    						nav:true,
+								autoplayTimeout: 8500,
+								smartSpeed: 450,
+  							navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+								responsive: {
+									1: {
+												items: 1
+											},
+									2: {
+												items: 2
+											},
+									3: {
+												items: 3
+											},
+		
+									}
+					});
+
+        }
+		
+// for Desserts
+			// 6. accompaniments menu
+      if('17' === $(this).attr('id')) { 
+				console.log("accompaniments button clicked");
+				$("#customers-testimonials").hide();
+				// Toggle Functions
+
+				if(previous_button == '11') {
+					$("#customers-testimonials1").hide();
+					$("#customers-testimonials7").toggle();
+					previous_button="17";
+				}
+				if(previous_button == '12') {
+					$("#customers-testimonials2").hide();
+					$("#customers-testimonials7").toggle();
+					previous_button="17";
+				}
+				if(previous_button == '13') {
+					$("#customers-testimonials3").hide();
+					$("#customers-testimonials7").toggle();
+					previous_button="17";
+				}
+				if(previous_button == '14') {
+					$("#customers-testimonials4").hide();
+					$("#customers-testimonials7").toggle();
+					previous_button="17";
+				}
+				if(previous_button == '15') {
+					$("#customers-testimonials5").hide();
+					$("#customers-testimonials7").toggle();
+					previous_button="17";
+				}
+				if(previous_button == '16') {
+					$("#customers-testimonials6").hide();
+					$("#customers-testimonials7").toggle();
+					previous_button="17";
+				}
+				if(previous_button == '18') {
+					$("#customers-testimonials8").hide();
+					$("#customers-testimonials7").toggle();
+					previous_button="17";
+				}
+				if(previous_button == '19') {
+					$("#customers-testimonials9").hide();
+					$("#customers-testimonials7").toggle();
+					previous_button="17";
+				}
+				if(previous_button == '0') {
+					$("#customers-testimonials").hide();
+					$("#customers-testimonials7").toggle();
+					previous_button="17";
+				}
+				if(previous_button == '17') {
+					$("#customers-testimonials7").show();
+					previous_button="17";
+				}
+				
+
+				
+				$('#customers-testimonials7').owlCarousel( {
+								loop: true,
+								center: true,
+								items: 3,
+								margin: 20,
+								autoplay: true,
+								dots:true,
+    						nav:true,
+								autoplayTimeout: 8500,
+								smartSpeed: 450,
+  							navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+								responsive: {
+									1: {
+												items: 1
+											},
+									2: {
+												items: 2
+											},
+									3: {
+												items: 3
+											},
+		
+									}
+					});
+
+        }
+
+// For Vegetarian
+			// 6. accompaniments menu
+      if('18' === $(this).attr('id')) { 
+				console.log("accompaniments button clicked");
+				$("#customers-testimonials").hide();
+				// Toggle Functions
+
+				if(previous_button == '11') {
+					$("#customers-testimonials1").hide();
+					$("#customers-testimonials8").toggle();
+					previous_button="18";
+				}
+				if(previous_button == '12') {
+					$("#customers-testimonials2").hide();
+					$("#customers-testimonials8").toggle();
+					previous_button="18";
+				}
+				if(previous_button == '13') {
+					$("#customers-testimonials3").hide();
+					$("#customers-testimonials8").toggle();
+					previous_button="18";
+				}
+				if(previous_button == '14') {
+					$("#customers-testimonials4").hide();
+					$("#customers-testimonials8").toggle();
+					previous_button="18";
+				}
+				if(previous_button == '15') {
+					$("#customers-testimonials5").hide();
+					$("#customers-testimonials8").toggle();
+					previous_button="18";
+				}
+				if(previous_button == '16') {
+					$("#customers-testimonials6").hide();
+					$("#customers-testimonials8").toggle();
+					previous_button="18";
+				}
+				if(previous_button == '17') {
+					$("#customers-testimonials7").hide();
+					$("#customers-testimonials8").toggle();
+					previous_button="18";
+				}
+				
+				if(previous_button == '19') {
+					$("#customers-testimonials9").hide();
+					$("#customers-testimonials8").toggle();
+					previous_button="18";
+				}
+				
+				if(previous_button == '0') {
+					$("#customers-testimonials").hide();
+					$("#customers-testimonials8").toggle();
+					previous_button="18";
+				}
+	
+				if(previous_button == '18') {
+					$("#customers-testimonials8").show();
+					previous_button="18";
+				}
+				
+
+				
+				$('#customers-testimonials8').owlCarousel( {
+								loop: true,
+								center: true,
+								items: 3,
+								margin: 20,
+								autoplay: true,
+								dots:true,
+    						nav:true,
+								autoplayTimeout: 8500,
+								smartSpeed: 450,
+  							navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+								responsive: {
+									1: {
+												items: 1
+											},
+									2: {
+												items: 2
+											},
+									3: {
+												items: 3
+											},
+		
+									}
+					});
+
+        }
+		
+// For Non-Vegetarian
+			// 6. accompaniments menu
+      if('19' === $(this).attr('id')) { 
+				console.log("accompaniments button clicked");
+				$("#customers-testimonials").hide();
+				// Toggle Functions
+
+				if(previous_button == '11') {
+					$("#customers-testimonials1").hide();
+					$("#customers-testimonials9").toggle();
+					previous_button="19";
+				}
+				if(previous_button == '12') {
+					$("#customers-testimonials2").hide();
+					$("#customers-testimonials9").toggle();
+					previous_button="19";
+				}
+				if(previous_button == '13') {
+					$("#customers-testimonials3").hide();
+					$("#customers-testimonials9").toggle();
+					previous_button="19";
+				}
+				if(previous_button == '14') {
+					$("#customers-testimonials4").hide();
+					$("#customers-testimonials9").toggle();
+					previous_button="19";
+				}
+				if(previous_button == '15') {
+					$("#customers-testimonials5").hide();
+					$("#customers-testimonials9").toggle();
+					previous_button="19";
+				}
+				if(previous_button == '16') {
+					$("#customers-testimonials6").hide();
+					$("#customers-testimonials9").toggle();
+					previous_button="19";
+				}
+				if(previous_button == '17') {
+					$("#customers-testimonials7").hide();
+					$("#customers-testimonials9").toggle();
+					previous_button="19";
+				}
+				if(previous_button == '18') {
+					$("#customers-testimonials8").hide();
+					$("#customers-testimonials9").toggle();
+					previous_button="19";
+				}
+				
+				if(previous_button == '0') {
+					$("#customers-testimonials").hide();
+					$("#customers-testimonials9").toggle();
+					previous_button="19";
+				}
+				if(previous_button == '19') {
+					$("#customers-testimonials9").show();
+					previous_button="19";
+				}
+				
+
+				
+				$('#customers-testimonials9').owlCarousel( {
+								loop: true,
+								center: true,
+								items: 3,
+								margin: 20,
+								autoplay: true,
+								dots:true,
+    						nav:true,
+								autoplayTimeout: 8500,
+								smartSpeed: 450,
+  							navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+								responsive: {
+									1: {
+												items: 1
+											},
+									2: {
+												items: 2
+											},
+									3: {
+												items: 3
+											},
+		
+									}
+					});
+
+        }
+// For recommended
+			// 6. accompaniments menu
+      if('20' === $(this).attr('id')) { 
+				console.log("accompaniments button clicked");
+				$("#customers-testimonials").show();
+				// Toggle Functions
+
+				if(previous_button == '11') {
+					$("#customers-testimonials1").hide();
+					$("#customers-testimonials").show();
+					previous_button="0";
+				}
+				if(previous_button == '12') {
+					$("#customers-testimonials2").hide();
+					$("#customers-testimonials").show();
+					previous_button="0";
+				}
+				if(previous_button == '13') {
+					$("#customers-testimonials3").hide();
+					$("#customers-testimonials").show();
+					previous_button="0";
+				}
+				if(previous_button == '14') {
+					$("#customers-testimonials4").hide();
+					$("#customers-testimonials").show();
+					previous_button="0";
+				}
+				if(previous_button == '15') {
+					$("#customers-testimonials5").hide();
+					$("#customers-testimonials").show();
+					previous_button="0";
+				}
+				if(previous_button == '16') {
+					$("#customers-testimonials6").hide();
+					$("#customers-testimonials").show();
+					previous_button="0";
+				}
+				if(previous_button == '17') {
+					$("#customers-testimonials7").hide();
+					$("#customers-testimonials").show();
+					previous_button="0";
+				}
+				if(previous_button == '18') {
+					$("#customers-testimonials8").hide();
+					$("#customers-testimonials").show();
+					previous_button="0";
+				}
+				if(previous_button == '19') {
+					$("#customers-testimonials9").hide();
+					$("#customers-testimonials").show();
+					previous_button="0";
+				}
+				if(previous_button == '0') {
+					
+					$("#customers-testimonials").show();
+					previous_button="0";
+				}
+				if(previous_button == '19') {
+					$("#customers-testimonials").show();
+					previous_button="19";
+				}
+				
+				
+        }
+			
+			
+			console.log("NO button clicked");
+
+			
+			
+		
+    });
+
+
+// Chatbot functionality
+//$(document).ready(function(){
+	var $input=$(".chat-input")
+		,$sendButton=$(".chat-send")
+		,$messagesContainer=$(".chat-messages")
+		,$messagesList=$(".chat-messages-list")
+		,$effectContainer=$(".chat-effect-container")
+		,$infoContainer=$(".chat-info-container")
+
+		,messages=0
+		,bleeding=100
+		,isFriendTyping=false
+		,incomingMessages=0
+		,lastMessage=""
+	;
+	
+	var lipsum="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+
+	function gooOn(){
+		setFilter('url(#goo)');
+	}
+	function gooOff(){
+		setFilter('none');
+	}
+	function setFilter(value){
+		$effectContainer.css({
+			webkitFilter:value,
+			mozFilter:value,
+			filter:value,
+		});
+	}
+
+	function addMessage(message,self){
+		var $messageContainer=$("<li/>")
+			.addClass('chat-message '+(self?'chat-message-self':'chat-message-friend'))
+			.appendTo($messagesList)
+		;
+		var $messageBubble=$("<div/>")
+			.addClass('chat-message-bubble')
+			.appendTo($messageContainer)
+		;
+		$messageBubble.text(message);
+
+		var oldScroll=$messagesContainer.scrollTop();
+		$messagesContainer.scrollTop(9999999);
+		var newScroll=$messagesContainer.scrollTop();
+		var scrollDiff=newScroll-oldScroll;
+		TweenMax.fromTo(
+			$messagesList,0.4,{
+				y:scrollDiff
+			},{
+				y:0,
+				ease:Quint.easeOut
+			}
+		);
+
+		return {
+			$container:$messageContainer,
+			$bubble:$messageBubble
+		};
+	}
+	function sendMessage(){
+		var message=$input.text();
+		
+		if(message=="") return;
+		
+		lastMessage=message;
+
+		var messageElements=addMessage(message,true)
+			,$messageContainer=messageElements.$container
+			,$messageBubble=messageElements.$bubble
+		;
+
+		var oldInputHeight=$(".chat-input-bar").height();
+		$input.text('');
+		updateChatHeight();
+		var newInputHeight=$(".chat-input-bar").height();
+    
+		var inputHeightDiff=newInputHeight-oldInputHeight
+
+		var $messageEffect=$("<div/>")
+			.addClass('chat-message-effect')
+			.append($messageBubble.clone())
+			.appendTo($effectContainer)
+			.css({
+				left:$input.position().left-12,
+				top:$input.position().top+bleeding+inputHeightDiff
+			})
+		;
+
+
+		var messagePos=$messageBubble.offset();
+		var effectPos=$messageEffect.offset();
+		var pos={
+			x:messagePos.left-effectPos.left,
+			y:messagePos.top-effectPos.top
+		}
+
+		var $sendIcon=$sendButton.children("i");
+		TweenMax.to(
+			$sendIcon,0.15,{
+				x:30,
+				y:-30,
+				force3D:true,
+				ease:Quad.easeOut,
+				onComplete:function(){
+					TweenMax.fromTo(
+						$sendIcon,0.15,{
+							x:-30,
+							y:30
+						},
+						{
+							x:0,
+							y:0,
+							force3D:true,
+							ease:Quad.easeOut
+						}
+					);
+				}
+			}
+		);
+
+		gooOn();
+
+		
+		TweenMax.from(
+			$messageBubble,0.8,{
+				y:-pos.y,
+				ease:Sine.easeInOut,
+				force3D:true
+			}
+		);
+
+		var startingScroll=$messagesContainer.scrollTop();
+		var curScrollDiff=0;
+		var effectYTransition;
+		var setEffectYTransition=function(dest,dur,ease){
+			return TweenMax.to(
+				$messageEffect,dur,{
+					y:dest,
+					ease:ease,
+					force3D:true,
+					onUpdate:function(){
+						var curScroll=$messagesContainer.scrollTop();
+						var scrollDiff=curScroll-startingScroll;
+						if(scrollDiff>0){
+							curScrollDiff+=scrollDiff;
+							startingScroll=curScroll;
+
+							var time=effectYTransition.time();
+							effectYTransition.kill();
+							effectYTransition=setEffectYTransition(pos.y-curScrollDiff,0.8-time,Sine.easeOut);
+						}
+					}
+				}
+			);
+		}
+
+		effectYTransition=setEffectYTransition(pos.y,0.8,Sine.easeInOut);
+		
+		// effectYTransition.updateTo({y:800});
+
+		TweenMax.from(
+			$messageBubble,0.6,{
+				delay:0.2,
+				x:-pos.x,
+				ease:Quad.easeInOut,
+				force3D:true
+			}
+		);
+		TweenMax.to(
+			$messageEffect,0.6,{
+				delay:0.2,
+				x:pos.x,
+				ease:Quad.easeInOut,
+				force3D:true
+			}
+		);
+
+		TweenMax.from(
+			$messageBubble,0.2,{
+				delay:0.65,
+				opacity:0,
+				ease:Quad.easeInOut,
+				onComplete:function(){
+					TweenMax.killTweensOf($messageEffect);
+					$messageEffect.remove();
+					if(!isFriendTyping)
+						gooOff();
+				}
+			}
+		);
+
+		messages++;
+		
+		//$(".chat-send").keypress(function(e) {
+        //  if (e.which == 13) {
+		
+		
+		
+		// send the chat functionality
+		var typeStartDelay=1000;
+		setTimeout(friendIsTyping,typeStartDelay);
+		var reply = "";
+		if (orderIDstring === "YES"){
+		lastMessage+="-ORDERID";
+		orderIDstring="NO";
+		}
+		if (statusIDstring === "YES"){
+		lastMessage+="-STATUSID";
+		statusIDstring="NO";
+		}
+		
+		$.get("/get", { msg: lastMessage }).done(function(data) {reply=data;});
+		
+		console.log(lastMessage);
+		console.log(reply);
+		
+		//if (reply === "Please send me your order ID."){
+		//console.log("IDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD");
+		//}
+		
+		var typeDelay=400+(reply.length*50)+(Math.random()*1000);
+		setTimeout(function(){
+			console.log(reply);
+			if (reply === "Please send me your order ID."){
+			console.log(orderIDstring);
+			orderIDstring="YES";
+			console.log(orderIDstring);
+			
+			}
+			if (reply === "For Status, please send me your order ID."){
+			console.log(statusIDstring);
+			statusIDstring="YES";
+			console.log(statusIDstring);
+			}
+			
+			receiveMessage(reply);
+			
+		},typeDelay+typeStartDelay);
+		
+		
+		setTimeout(function(){
+			incomingMessages--;
+			//if(Math.random()<0.1){
+			//	getReply();
+			//}
+			if(incomingMessages<=0){
+				friendStoppedTyping();
+			}
+		},typeDelay+typeStartDelay);	
+		
+		//console.log(lastMessage);
+		
+	  //getReply(lastMessage);    
+
+		//if(Math.random()<0.65 || lastMessage.indexOf("?")>-1 || messages==1)  getReply();
+	}
+	function getReply2(checkoutData){
+
+		var typeStartDelay2=200;
+		setTimeout(friendIsTyping,typeStartDelay2);
+ 	
+		var message=checkoutData;
+     
+		var typeDelay2=(message.length*5)+(Math.random()*1000);
+
+		setTimeout(function(){
+			receiveMessage(message);
+		},typeDelay2+typeStartDelay2);
+
+		setTimeout(function(){
+			incomingMessages--;
+			//if(Math.random()<0.1){
+			//	getReply2();
+			//}
+			if(incomingMessages<=0){
+				friendStoppedTyping();
+			}
+		},typeDelay2+typeStartDelay2);
+	}
+	function friendIsTyping(){
+		if(isFriendTyping) return;
+
+		isFriendTyping=true;
+
+		var $dots=$("<div/>")
+			.addClass('chat-effect-dots')
+			.css({
+				top:-30+bleeding,
+				left:10
+			})
+			.appendTo($effectContainer)
+		;
+		for (var i = 0; i < 3; i++) {
+			var $dot=$("<div/>")
+				.addClass("chat-effect-dot")
+				.css({
+					left:i*20
+				})
+				.appendTo($dots)
+			;
+			TweenMax.to($dot,0.3,{
+				delay:-i*0.1,
+				y:30,
+				yoyo:true,
+				repeat:-1,
+				ease:Quad.easeInOut
+			})
+		};
+
+		var $info=$("<div/>")
+			.addClass("chat-info-typing")
+			.text("RestroBot is typing...")
+			.css({
+				transform:"translate3d(0,30px,0)"
+			})
+			.appendTo($infoContainer)
+
+		TweenMax.to($info, 0.3,{
+			y:0,
+			force3D:true
+		});
+
+		gooOn();
+	}
+
+	function friendStoppedTyping(){
+		if(!isFriendTyping) return
+
+		isFriendTyping=false;
+
+		var $dots=$effectContainer.find(".chat-effect-dots");
+		TweenMax.to($dots,0.3,{
+			y:40,
+			force3D:true,
+			ease:Quad.easeIn,
+		});
+
+		var $info=$infoContainer.find(".chat-info-typing");
+		TweenMax.to($info,0.3,{
+			y:30,
+			force3D:true,
+			ease:Quad.easeIn,
+			onComplete:function(){
+				$dots.remove();
+				$info.remove();
+
+				gooOff();
+			}
+		});
+	}
+	function receiveMessage(message){
+		var messageElements=addMessage(message,false)
+			,$messageContainer=messageElements.$container
+			,$messageBubble=messageElements.$bubble
+		;
+
+		TweenMax.set($messageBubble,{
+			transformOrigin:"60px 50%"
+		})
+		TweenMax.from($messageBubble,0.4,{
+			scale:0,
+			force3D:true,
+			ease:Back.easeOut
+		})
+		TweenMax.from($messageBubble,0.4,{
+			x:-100,
+			force3D:true,
+			ease:Quint.easeOut
+		})
+	}
+
+	function updateChatHeight(){
+		$messagesContainer.css({
+			height:460-$(".chat-input-bar").height()
+		});
+	}
+
+	$input.keydown(function(event) {
+		if(event.keyCode==KEY_ENTER){
+			event.preventDefault();
+			sendMessage();
+		}
+	});
+	$sendButton.click(function(event){
+		event.preventDefault();
+		sendMessage();
+		// $input.focus();
+	});
+	$sendButton.on("touchstart",function(event){
+		event.preventDefault();
+		sendMessage();
+		// $input.focus();
+	});
+
+	$input.on("input",function(){
+		updateChatHeight();
+	});
+
+	gooOff();
+	updateChatHeight();
+
+
+// mycart functionality
+
+  "use strict";
+
+  var OptionManager = (function () {
+    var objToReturn = {};
+
+    var _options = null;
+    var DEFAULT_OPTIONS = {
+      currencySymbol: '$',
+      classCartIcon: 'my-cart-icon',
+      classCartBadge: 'my-cart-badge',
+      classProductQuantity: 'my-product-quantity',
+      classProductRemove: 'my-product-remove',
+      classCheckoutCart: 'my-cart-checkout',
+      affixCartIcon: true,
+      showCheckoutModal: true,
+      numberOfDecimals: 2,
+      cartItems: null,
+      clickOnAddToCart: function ($addTocart) {},
+      afterAddOnCart: function (products, totalPrice, totalQuantity) {},
+      clickOnCartIcon: function ($cartIcon, products, totalPrice, totalQuantity) {},
+      checkoutCart: function (products, totalPrice, totalQuantity) {
+        return false;
+      },
+      getDiscountPrice: function (products, totalPrice, totalQuantity) {
+        return null;
+      }
+    };
+
+
+    var loadOptions = function (customOptions) {
+      _options = $.extend({}, DEFAULT_OPTIONS);
+      if (typeof customOptions === 'object') {
+        $.extend(_options, customOptions);
+      }
+    };
+    var getOptions = function () {
+      return _options;
+    };
+
+    objToReturn.loadOptions = loadOptions;
+    objToReturn.getOptions = getOptions;
+    return objToReturn;
+  }());
+
+  var MathHelper = (function () {
+    var objToReturn = {};
+    var getRoundedNumber = function (number) {
+      if (isNaN(number)) {
+        throw new Error('Parameter is not a Number');
+      }
+      number = number * 1;
+      var options = OptionManager.getOptions();
+      return number.toFixed(options.numberOfDecimals);
+    };
+    objToReturn.getRoundedNumber = getRoundedNumber;
+    return objToReturn;
+  }());
+
+  var ProductManager = (function () {
+    var objToReturn = {};
+
+    /*
+    PRIVATE
+    */
+    const STORAGE_NAME = "__mycart";
+    localStorage[STORAGE_NAME] = localStorage[STORAGE_NAME] ? localStorage[STORAGE_NAME] : "";
+    var getIndexOfProduct = function (id) {
+      var productIndex = -1;
+      var products = getAllProducts();
+      $.each(products, function (index, value) {
+        if (value.id == id) {
+          productIndex = index;
+          return;
+        }
+      });
+      return productIndex;
+    };
+    var setAllProducts = function (products) {
+      localStorage[STORAGE_NAME] = JSON.stringify(products);
+    };
+    var addProduct = function (id, name, summary, price, quantity, image) {
+      var products = getAllProducts();
+      products.push({
+        id: id,
+        name: name,
+        summary: summary,
+        price: price,
+        quantity: quantity,
+        image: image
+      });
+      setAllProducts(products);
+    };
+
+    /*
+    PUBLIC
+    */
+    var getAllProducts = function () {
+      try {
+        var products = JSON.parse(localStorage[STORAGE_NAME]);
+		console.log("getallproducts");
+		console.log(products);
+        return products;
+      } catch (e) {
+        return [];
+      }
+    };
+    var updatePoduct = function (id, quantity, increaseQuantity) {
+      var productIndex = getIndexOfProduct(id);
+      if (productIndex < 0) {
+        return false;
+      }
+      var products = getAllProducts();
+      if(increaseQuantity) {
+        products[productIndex].quantity = products[productIndex].quantity * 1 + (typeof quantity === "undefined" ? 1 : quantity * 1);
+      } else {
+        products[productIndex].quantity = typeof quantity === "undefined" ? products[productIndex].quantity * 1 + 1 : quantity * 1;
+      }
+      setAllProducts(products);
+      return true;
+    };
+    var setProduct = function (id, name, summary, price, quantity, image) {
+      if (typeof id === "undefined") {
+        console.error("id required");
+        return false;
+      }
+      if (typeof name === "undefined") {
+        console.error("name required");
+        return false;
+      }
+      //if (typeof image === "undefined") {
+        //console.error("image required");
+        //return false;
+      //}
+      if (!$.isNumeric(price)) {
+        console.error("price is not a number");
+        return false;
+      }
+     //if (!$.isNumeric(quantity)) {
+      //  console.error("quantity is not a number");
+      //  return false;
+      //}
+      summary = typeof summary === "undefined" ? "" : summary;
+
+      if (!updatePoduct(id, quantity, true)) {
+        addProduct(id, name, summary, price, quantity, image);
+      }
+    };
+    var clearProduct = function () {
+      setAllProducts([]);
+    };
+    var removeProduct = function (id) {
+      var products = getAllProducts();
+      products = $.grep(products, function (value, index) {
+        return value.id != id;
+      });
+      setAllProducts(products);
+    };
+    var getTotalQuantity = function () {
+      var total = 0;
+      var products = getAllProducts();
+	  console.log(products);
+      $.each(products, function (index, value) {
+        total += value.quantity * 1;
+		console.log("___________________");
+		console.log(total);
+      });
+      return total;
+    };
+    var getTotalPrice = function () {
+      var products = getAllProducts();
+      var total = 0;
+      $.each(products, function (index, value) {
+        total += value.quantity * value.price;
+        total = MathHelper.getRoundedNumber(total) * 1;
+      });
+      return total;
+    };
+
+    objToReturn.getAllProducts = getAllProducts;
+    objToReturn.updatePoduct = updatePoduct;
+    objToReturn.setProduct = setProduct;
+    objToReturn.clearProduct = clearProduct;
+    objToReturn.removeProduct = removeProduct;
+    objToReturn.getTotalQuantity = getTotalQuantity;
+    objToReturn.getTotalPrice = getTotalPrice;
+    return objToReturn;
+  }());
+
+
+  var loadMyCartEvent = function (targetSelector) {
+
+    var options = OptionManager.getOptions();
+    var $cartIcon = $("." + options.classCartIcon);
+    var $cartBadge = $("." + options.classCartBadge);
+    var classProductQuantity = options.classProductQuantity;
+    var classProductRemove = options.classProductRemove;
+    var classCheckoutCart = options.classCheckoutCart;
+
+    var idCartModal = 'my-cart-modal';
+    var idCartTable = 'my-cart-table';
+    var idGrandTotal = 'my-cart-grand-total';
+    var idEmptyCartMessage = 'my-cart-empty-message';
+    var idDiscountPrice = 'my-cart-discount-price';
+    var classProductTotal = 'my-product-total';
+    var classAffixMyCartIcon = 'my-cart-icon-affix';
+
+
+    if (options.cartItems && options.cartItems.constructor === Array) {
+			console.log("I am here too");
+      ProductManager.clearProduct();
+      $.each(options.cartItems, function () {
+        ProductManager.setProduct(this.id, this.name, this.summary, this.price, this.quantity, this.image);
+      });
+    }
+
+    $cartBadge.text(ProductManager.getTotalQuantity());
+
+    if (!$("#" + idCartModal).length) {
+      $('body').append(
+        '<div class="modal" id="' + idCartModal + '" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">' +
+        '<div class="modal-dialog" role="document">' +
+        '<div class="modal-content">' +
+        '<div class="modal-header">' +
+        //'<button type="button" class="close" data-dismiss="modal " aria-label="Close"><span aria-hidden="true">&times;</span></button>' +
+        '<h4 class="modal-title" id="myModalLabel"><span class="glyphicon glyphicon-shopping-cart"></span> My Cart</h4>' +
+        '</div>' +
+        '<div class="modal-body">' +
+        '<table class="table table-hover table-responsive" id="' + idCartTable + '"></table>' +
+        '</div>' +
+        '<div class="modal-footer">' +
+        //'<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>' +
+        '<button type="button" class="btn btn-primary ' + classCheckoutCart + '">Checkout</button>' +
+        '</div>' +
+        '</div>' +
+        '</div>' +
+        '</div>'
+      );
+    }
+    
+    var drawTable = function () {
+      var $cartTable = $("#" + idCartTable);
+      $cartTable.empty();
+
+      var products = ProductManager.getAllProducts();
+      $.each(products, function () {
+        var total = this.quantity * this.price;
+		console.log("ProductManager----");
+		console.log(this.quantity);
+		console.log("ProductManager----");
+        $cartTable.append(
+          '<tr title="' + this.summary + '" data-id="' + this.id + '" data-price="' + this.price + '">' +
+          '<td class="text-center" style="width: 30px;"><img width="30px" height="30px" src="' + this.image + '"/></td>' +
+          '<td>' + this.name + '</td>' +
+          '<td title="Unit Price" class="text-right">' + options.currencySymbol + MathHelper.getRoundedNumber(this.price) + '</td>' +
+          '<td title="Quantity"><input type="number" min="1" style="width: 70px;" class="' + classProductQuantity + '" value="' + this.quantity + '"/></td>' +
+          '<td title="Total" class="text-right ' + classProductTotal + '">' + options.currencySymbol + MathHelper.getRoundedNumber(total) + '</td>' +
+          '<td title="Remove from Cart" class="text-center" style="width: 30px;"><a href="javascript:void(0);" class="btn btn-xs btn-danger ' + classProductRemove + '">X</a></td>' +
+          '</tr>'
+        );
+      });
+
+      $cartTable.append(products.length ?
+        '<tr>' +
+        '<td></td>' +
+        '<td><strong>Total</strong></td>' +
+        '<td></td>' +
+        '<td></td>' +
+        '<td class="text-right"><strong id="' + idGrandTotal + '"></strong></td>' +
+        '<td></td>' +
+        '</tr>' :
+        '<div class="alert alert-danger" role="alert" id="' + idEmptyCartMessage + '">Your cart is empty</div>'
+      );
+
+      var discountPrice = options.getDiscountPrice(products, ProductManager.getTotalPrice(), ProductManager.getTotalQuantity());
+      if (products.length && discountPrice !== null) {
+        $cartTable.append(
+          '<tr style="color: red">' +
+          '<td></td>' +
+          '<td><strong>Total (including discount)</strong></td>' +
+          '<td></td>' +
+          '<td></td>' +
+          '<td class="text-right"><strong id="' + idDiscountPrice + '"></strong></td>' +
+          '<td></td>' +
+          '</tr>'
+        );
+      }
+
+      showGrandTotal();
+      showDiscountPrice();
+    };
+    var showModal = function () {
+      drawTable();
+      $("#" + idCartModal).modal('show');
+    };
+    var updateCart = function () {
+      $.each($("." + classProductQuantity), function () {
+        var id = $(this).closest("tr").data("id");
+        ProductManager.updatePoduct(id, $(this).val());
+      });
+    };
+    var showGrandTotal = function () {
+      $("#" + idGrandTotal).text(options.currencySymbol + MathHelper.getRoundedNumber(ProductManager.getTotalPrice()));
+    };
+    var showDiscountPrice = function () {
+      $("#" + idDiscountPrice).text(options.currencySymbol + MathHelper.getRoundedNumber(options.getDiscountPrice(ProductManager.getAllProducts(), ProductManager.getTotalPrice(), ProductManager.getTotalQuantity())));
+    };
+
+    /*
+    EVENT
+    */
+    if (options.affixCartIcon) {
+      var cartIconBottom = $cartIcon.offset().top * 1 + $cartIcon.css("height").match(/\d+/) * 1;
+      var cartIconPosition = $cartIcon.css('position');
+      $(window).scroll(function () {
+        $(window).scrollTop() >= cartIconBottom ? $cartIcon.addClass(classAffixMyCartIcon) : $cartIcon.removeClass(classAffixMyCartIcon);
+      });
+    }
+
+    $cartIcon.click(function () {
+      options.showCheckoutModal ? showModal() : options.clickOnCartIcon($cartIcon, ProductManager.getAllProducts(), ProductManager.getTotalPrice(), ProductManager.getTotalQuantity());
+    });
+
+    $(document).on("input", "." + classProductQuantity, function () {
+      var price = $(this).closest("tr").data("price");
+      var id = $(this).closest("tr").data("id");
+      var quantity = $(this).val();
+
+      $(this).parent("td").next("." + classProductTotal).text(options.currencySymbol + MathHelper.getRoundedNumber(price * quantity));
+      ProductManager.updatePoduct(id, quantity);
+
+      $cartBadge.text(ProductManager.getTotalQuantity());
+      showGrandTotal();
+      showDiscountPrice();
+    });
+
+    $(document).on('keypress', "." + classProductQuantity, function (evt) {
+      if (evt.keyCode >= 48 && evt.keyCode <= 57) {
+        return;
+      }
+      evt.preventDefault();
+    });
+
+    $(document).on('click', "." + classProductRemove, function () {
+      var $tr = $(this).closest("tr");
+      var id = $tr.data("id");
+      $tr.hide(500, function () {
+        ProductManager.removeProduct(id);
+        drawTable();
+        $cartBadge.text(ProductManager.getTotalQuantity());
+      });
+    });
+
+    $(document).on('click', "." + classCheckoutCart, function () {
+      var products = ProductManager.getAllProducts();
+      if (!products.length) {
+        $("#" + idEmptyCartMessage).fadeTo('fast', 0.5).fadeTo('fast', 1.0);
+        return;
+      }
+      updateCart();
+      var isCheckedOut = options.checkoutCart(ProductManager.getAllProducts(), ProductManager.getTotalPrice(), ProductManager.getTotalQuantity());
+      if (isCheckedOut !== false) {
+        ProductManager.clearProduct();
+        $cartBadge.text(ProductManager.getTotalQuantity());
+        $("#" + idCartModal).modal("hide");
+      }
+    });
+
+    $(document).on('click', targetSelector, function () {
+      var $target = $(this);
+      options.clickOnAddToCart($target);
+
+      var id = $target.data('id');
+      var name = $target.data('name');
+      var summary = $target.data('summary');
+      var price = $target.data('price');
+      var quantity = $target.data('quantity');
+      var image = $target.data('image');
+
+      ProductManager.setProduct(id, name, summary, price, quantity, image);
+      $cartBadge.text(ProductManager.getTotalQuantity());
+
+      options.afterAddOnCart(ProductManager.getAllProducts(), ProductManager.getTotalPrice(), ProductManager.getTotalQuantity());
+    });
+
+  };
+
+
+  $.fn.myCart = function (userOptions) {
+    OptionManager.loadOptions(userOptions);
+    loadMyCartEvent(this.selector);
+    return this;
+  };
+
+
+
+
+// mycart function call
+
+
+    var goToCartIcon = function($addTocartBtn){
+      var $cartIcon = $(".my-cart-icon");
+      var $image = $('<img width="20px" height="20px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "999"});
+			
+      $addTocartBtn.prepend($image);
+			
+			//$(".my-cart-btn").on('click',function(){
+				//$(btn-itemadd).show();
+			//	$(this).text("Item Added!");
+				//$(this).text("Add to Cart");
+				//setTimeout(function() {
+    		//		$(this).text("Add to Cart")
+  			//	}, 500);
+				
+			
+					//alert("item added");
+				  
+				  
+				
+    		//var button_text=$(this);
+    		//if(button_text.text()=="Add to Cart")     {
+   	 		//	button_text.text("Item added");  
+    		//	}
+    		
+			//});
+			
+      var position = $cartIcon.position();
+      $image.animate({
+        //top: position.top,
+        //right: position.right,
+      }, 500 , "linear", function() {
+				//$(".my-cart-btn").text('Item Added');
+        $image.remove();
+				
+      });
+    }
+
+    $('.my-cart-btn').myCart({
+      currencySymbol: '$',
+      classCartIcon: 'my-cart-icon',
+      classCartBadge: 'my-cart-badge',
+      classProductQuantity: 'my-product-quantity',
+      classProductRemove: 'my-product-remove',
+      classCheckoutCart: 'my-cart-checkout',
+      affixCartIcon: true,
+      showCheckoutModal: true,
+      numberOfDecimals: 2,
+      cartItems: [
+        {id: 1, name: 'sample Product', summary: 'Summary 1', price: 100, quantity: 1, image: 'https://image.freepik.com/free-photo/dishes-with-healthy-waffles_1220-367.jpg'},
+              
+     ],
+      clickOnAddToCart: function($addTocart){
+				console.log($(this).text());
+				
+        goToCartIcon($addTocart);
+      },
+      afterAddOnCart: function(products, totalPrice, totalQuantity) {
+        console.log("afterAddOnCart", products, totalPrice, totalQuantity);
+      },
+      clickOnCartIcon: function($cartIcon, products, totalPrice, totalQuantity) {
+		console.log("I am here");
+        console.log("cart icon clicked", $cartIcon, products, totalPrice, totalQuantity);
+      },
+      checkoutCart: function(products, totalPrice, totalQuantity) {
+	    console.log("Inside Checkout Cart!!!");
+	    console.log(products);
+		
+		
+		var ordersDatabase= "TotalPrice:" + totalPrice +"||";
+        //var checkoutString = "Total Price: " + totalPrice + "\nTotal Quantity: " + totalQuantity + "\n" + "Your food will be delivered within 25 minutes."+"\n"+ "bon appétit!! ☺";
+        var checkoutString= "Your order with :" + "\n ";
+		
+		//checkoutString += "\n\n id \t name \t summary \t price \t quantity";
+        $.each(products, function(){
+          //checkoutString +=("\n");
+		  checkoutString += ("\n " + this.quantity + " " + this.name + "; ");
+		  
+		  
+		  
+		  ordersDatabase += ("ProductName:" + this.name + ","+ "productPrice:" + this.price + "," + "productQuantity:" + this.quantity  +"||");
+		  //productData+=products;
+        });
+        //alert(checkoutString)
+		checkoutString += ("has been placed successfully. Your food will be delivered within 25 minutes.\n\n" + "bon appétit!! 😃");
+		
+		
+		getReply2(checkoutString);
+		
+		
+		// for order ID
+		var reply2="";
+		var typeStartDelay3=1000;
+		
+		$.get("/get", { msg: ordersDatabase }).done(function(data) {reply2=data;});
+		console.log(reply2);
+		
+		var typeDelay3=2000+(reply2.length*50)+(Math.random()*1000);
+		setTimeout(function(){
+			receiveMessage(reply2);
+		},typeDelay3+typeStartDelay3);
+		
+		
+		setTimeout(function(){
+			incomingMessages--;
+			//if(Math.random()<0.1){
+			//	getReply();
+			//}
+			if(incomingMessages<=0){
+				friendStoppedTyping();
+			}
+		},typeDelay3+typeStartDelay3);	
+		
+		
+	// 
+        console.log("checking out", products, totalPrice, totalQuantity);
+      },
+      getDiscountPrice: function(products, totalPrice, totalQuantity) {
+        console.log("calculating discount", products, totalPrice, totalQuantity);
+        return totalPrice * 0.9;
+      }
+    });
+
+
+});
+</script>
+
+</body>
+</html>
