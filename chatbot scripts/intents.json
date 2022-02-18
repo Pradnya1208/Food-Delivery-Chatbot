@@ -1,0 +1,103 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Are you there?", "Hey Ya!", "Hola", "Hello", "Good morning!", "Hey! Good morning", "Hey there", "Hey", "Very good morning", "A very good morning to you", "Greeting", "Greetings to you", "Howdy", "Good Day!", "Bonjour", "What's up", "Shalom", "Hi ya"],
+     "responses": ["Hello I'm Restrobot! How can I help you?", "Hi! I'm Restrobot. How may I assist you today?", "Hey! I'm Restrobot. How can I help you?"]
+    },
+    {"tag": "book_table",
+     "patterns": ["Book a table", "Can I book a table?", "I want to book a table", "Book seat", "I want to book a seat", "Can I book a seat?", "Could you help me book a table", "Can I reserve a seat?", "I need a reservation", "Can you help me with a reservation", "Can I book a reservation", "Can i have a table?", "Help me reserve a table", "book table", "Want to book a table", "We want a table by the window", "Table please", "Ok then book a table for me", "book tables"],
+     "responses": [""]
+    },
+    {"tag": "available_tables",
+     "patterns": ["How many seats are available?","Do you have any table", "Available seats", "How many tables are available?", "Available tables", "Are there any tables available?", "What is the capacity of the restaurant", "Are there any available tables?", "Are there any seats left?", "I wanted to know if there are any tables available now", "May I know if you have any tables which I can book?"],
+     "responses": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["cya", "byeee","See ya", "See you around", "I will leave now", "See you later", "Goodbye", "Leaving now, Bye" , "Good bye dear", "Bye dear", "I am Leaving", "Have a Good day", "cya later", "See you later", "I gotta go now", "I gotta rush now", "Thank you, bye", "Bye", "Ok Bye", "Okay goodnight", "Have a good day ahead", "Have a great day", "Tata", "Take care"],
+     "responses": ["It's been my pleasure serving you!", "Hope to see you again soon! Goodbye!", "Bye! Hope to see you again!"]
+    },
+    {"tag": "identity",
+     "patterns": ["what is your name", "what should I call you", "whats your name?", "who are you", "Are you human?", "Am i talking to a bot", "Are you a bot", "Can i have your name please", "name"],
+     "responses": ["You can call me Restrobot.", "I'm Restrobot!", "I'm Restrobot."]
+    },
+    {"tag": "hours",
+     "patterns": ["when are you guys open", "what are your hours", "hours of operation", "hours", "what is the timing", "when are you open", "Are you open on all days?", "are you open now", "are you open on holidays", "are you guys open on all weekdays?", "working hours", "hours", "what are your working hours?"],
+     "responses": ["We are open 10am-11pm Monday-Saturday!"]
+    },
+    {"tag": "menu",
+     "patterns": ["order something", "whats on the menu", "could i get something to eat", "Im damn hungry", "I am hungry" ,"What to eat", "Show me the menu", "What food do you have", "What food are you offering?", "whats on the menu today?", "Let me see the menu", "I would like to see the menu", "Menu card", "menu", "Menu please", "What do you have", "Food Menu"],
+     "responses": [""]
+    },
+    {"tag": "contact",
+     "patterns": ["contact information", "How to get in touch", "how do we contact you", "how can i contact you", "can i get the contact details", "I wanna give some feedback", "how can i give some feedback?", "CAn you give me the contact of an executive?", "What is the help desk phone number?","Can you give me your number", "Can i get the customer care number?", "Can I get help desk number", "payment stuck", "did not receive refund", "Refund policy"],
+     "responses": ["You can contact us at contact@helpdesk_restrobot.com, our help desk number is 8948948904"]
+    },
+    {"tag": "address",
+     "patterns": ["location?","your location", "where are you located?", "address", "whatis  the address?", "what is the address of the restaurant", "locate", "I cant find your location", "Can i have the address of the restaurant", "how to reach there?", "Address?", "what is the address of this restaurant?", "Location"],
+     "responses": ["You can locate us at --"]
+    },
+    {"tag": "positive_feedback",
+        "patterns": ["Great Service", "Great portions", "Value for money", "Good food","Excellent Food","Quick service", "Like the quantity and taste", "Your food made me happy", "Comfortable seating area","timely service","delighted to eat here","had a lot of fun","enjoyed the food", "Best restaurant", "delicious", "Creative menu", "Great food","Helpful staff", "Reasonable prices", "Beautiful presentation", "Fresh food", "very good", "lovely ambiance","Friendly place", "Good staff", "What a food", "Favorite place","Perfect food","Mouth watering","hygienic place", "the noodles were amazing","i loved the food", "Worth the wait", "Good crowd", "worth the money", "you did a good job", "Love the food", "Really love it", "Love the staff behavior", "my son devoured the brownie!", "pizza was so cheesy!", "perfectly baked", "we are very satisfied with the service", "the soup was a real game changer", "such delicious flavours", "so glad we discovered this place", "Me and my family is very satisfied with this service and food", "this place is awesome"],
+        "responses": [""]
+    },
+    {"tag": "negative_feedback",
+        "patterns": [ "Prices are too high honestly", "expensive","nonedible food", "prices are high compared to other hotels", "I hate the menu, such less options", "Unsafe!",  "too salty", "terrible experience", "too oily food", "confusing menu", "we were served cold food", "so disappointed", "the food is pathetic", "hate it", "my wife hates the food","eww", "hate the staff behavior", "i hate it", "what is wrong with these noodles?", "The choco lava was so undercooked", "Ew such a waste of money man", "hate the service","please train the staff properly", "This was such a waste of money", "Hate the staff", "Extremely dissatisfied", "disappointed", "so bad", "very bad", "disgusting food", "Really bad", "Yuck", "tasteless", "cold and soggy fries", "dislike", "waste of money, awful", "Horrible food", "Worst food ever","worsttt",  "Worst service and food", "disgusting", "unhygienic, found hair in my food", "overcooked", "uncooked", "fraud", "unfriendly staff", "Rude people", "awfuly long waiting time", "over crowded", "bad crowd", "not recommending it at all", "Shame", "Waste of time and Money"],
+        "responses": [""]
+    },
+    {"tag": "sanitation",
+        "patterns": ["safety","is it really safe to eat here?","Could you tell your COVID safety protocols?", "I would like to know about the cleanliness of the restaurant", "Please share your sanitization process", "I am concerned about the COVID related sanitization", "Is it safe to eat out in this pandemic?", "are you clean", "i am concerned about the cleanliness"],
+        "responses": ["I understand your concern. We are following all the COVID safety norms and guidlines by the government, Your safety is our priority: \n 1. All our staff is double masked 24x7. \n 2. All our staff is checked for fevers and other symptoms daily. \n 3. All surfaces are frequently sanitized. \n 4. We use this friendly bot to reduce physical closeness to the least!"]
+    },
+    {"tag": "offers",
+        "patterns": ["Could you tell me the pocket friendly options?", "Are there any discounts going on?", "Are there any special offers today?", "What about the festive offers?", "Could you please tell me which foods are on discount?", "are there any discounts", "are there any discount offers", "do you have any offers?", "what are the offers going on?", "what are the discounts available?", "What is special today?", "offers any?", "Discount any?"],
+        "responses": [""]
+    },
+
+    {"tag": "veg_enquiry",
+        "patterns": ["Can I see the vegetarian options?","Do you have any vegetarian options??", "Please show me your best vegetarian foods", "I dont want to eat non veg", "I am vegetarian", "vegetarian", "is this place vegetarian?", "Veg only", "Veg Menu", "Show me the veg options", "Veg", "Veg food please"],
+        "responses": [""]
+    },
+	{"tag": "nonveg_enquiry",
+        "patterns": ["Can I see the nonvegetarian options?","Do you have any non-vegetarian options??", "Please show me your best non-vegetarian foods", "I want to eat non veg", "non-veg menu please", "nonveg",  "Non-Veg food please", "Non-Veg Menu", "Show me the Chicken options", "Chicken", "Chicken-curry", "Mutton options", "Fish", "What type of fishes do you serve", "Chicken Biryani", "I want to order Fish Curry", "Do you have Chicken Kebabs", "Non-veg foods", "Do yiu have prawns fry in your menu", "prawns", "mutton biryani"],
+        "responses": [""]
+    },
+
+	
+	{"tag":"Quick_Bites",
+		"patterns": ["quick options", "Need something quick to eat","I want to order a sandwitch", "What are the options for breakfast", "Dessert", "Breakfast menu", "show me the breakfast options", "show me the bread options", "quick bites", "what are the qucick options?", "Do you have maggie?", "I want something quick and healthy","What is there in snacks?", "show me some options in snacks", "Snacks menu", "I want to grab some quick bites"],
+		"responses": [""]
+	},
+
+	{"tag":"Icecreams_bevrages",
+		"patterns": ["What are the options in bevrages", "I want fruit juice", "I want to order a coffee", "Coffee","tea", "need some tea","What are the options in deserts?", "What are the options in icecreams", "desert options", "show me the desert options", "I want to order something sweet", "Do you have cold drinks","what are the options in cakes ans pastries", "bevrage manu", "I want to order ice tea"],
+		"responses": [""]
+	},
+	{"tag": "Status",
+        "patterns": ["Order Status","Booking Status", "my order status"],
+        "responses": ["For Status, please send me your order ID."]
+    },
+	{"tag": "Cancel",
+        "patterns": ["Cancel my order","cancel table", "cancel my reservation", "cancel my booking", "Cancel the order", "cancel order"],
+        "responses": ["Please send me your order ID."]
+    },
+	{"tag": "Update",
+        "patterns": ["Update my order","change order", "update order"],
+        "responses": ["Please send me your order ID."]
+    },	
+
+	
+    {"tag": "recipe_enquiry",
+        "patterns": ["Could you tell me more about recipe of this dish?", "What is the recipe of this dish?", "what are the ingredients of this dish?", "tell me the recipe", "Need to know the recipe, I am lactose intolerant"],
+        "responses": [""]
+    },
+
+    {"tag": "suggest",
+        "patterns": ["what do you recommend?","do you have any suggestions","please suggest something","why don't you recommend me a dish", "help me choose what to order", "Surprise me!", "Do you have any special recommendations for me?", "What do you suggest?", "what is your suggestion", "what is a must try", "what should i try", "what should i eat?", "tell me what to order", "tell me what i should buy", "recommend me a dish", "suggest me a dish"],
+        "responses": [""]
+    },
+    {"tag": "general",
+        "patterns": ["okay","sure","cool","hmm", "fine", "thanks", "uhuh", "ok"],
+        "responses": [":)", "Glad to serve you!", "Happy to help!", "Always happy to assist you!"]
+    }
+	
+]
+}
