@@ -16,5 +16,5 @@
 # <div align="center">Food Delivery Chatbot</div>
 <div align="center"><img src="https://github.com/Pradnya1208/Food-Delivery-Chatbot/blob/main/output/food%20delivery%20chatbot.gif?raw=true" width="70%">
 
-  [YouTube Video Link](https://www.youtube.com/watch?v=0Is310r_b9E)
+  [[YouTube Video Link]](https://www.youtube.com/watch?v=0Is310r_b9E)
 </div>
